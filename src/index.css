@@ -31,3 +31,25 @@
   justify-content: center;
   align-items: center;
 }
+
+.desserts{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: black;
+  gap: 10px;
+  border: 10px solid rgb(95, 95, 144);
+  border-radius: 50px;
+  color: wheat;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border: 10px dotted blue;
+}
+
+img:hover {
+  width: 60%;
+  border: 5px dotted red;
+}
